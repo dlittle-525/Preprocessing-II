@@ -1,1 +1,17 @@
 // Navigation Styles here
+
+.navigation {
+    width: 100%;
+    .flex(row nowrap);
+    @media @mobile {
+        .flex(column nowrap)
+    }
+    h1 {
+        display: inline-block;
+        width: 40%;
+    }
+    nav {
+        .flex(row nowrap, space-evenly);
+        width: 40%;
+    }
+}
